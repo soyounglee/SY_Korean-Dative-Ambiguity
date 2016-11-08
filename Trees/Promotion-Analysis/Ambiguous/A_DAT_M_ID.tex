@@ -1,0 +1,96 @@
+%Promotion Analysis
+% Unambiguous- Matrix attachment_IO-DO
+% Matrix verb - ditransitive
+% Embedded verb - ditransitive
+% Piglet-nom	Robin-dat	Pooh-nom	picked 	honeycomb	sold
+% Piglet sold Robin the honeycomb that Pooh picked.
+
+\documentclass[12pt]{article}
+
+\usepackage{graphics}
+\usepackage{amsmath}
+\usepackage{xspace}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{arrows.meta,arrows}
+\usepackage{forest}
+\forestset{.style={for tree={l=2.25em, l sep=1.75em, parent anchor=south, child anchor=north}}}
+\usepackage{mycommands}
+
+\begin{document}
+\resizebox{1.0\textwidth}{!}{
+\begin{forest}
+        [\Lab{CP}{1}{2}
+        	[\Lab{C}{2}{3} ]
+           [\Lab{TP}{2}{4}, name = TP1
+                	[\Lab{T$'$}{4}{5}
+                   		 [\BLab{T}{5}{10} ]
+                   		 [\Lab{vP}{5}{6}, name= vP1
+				[\Lab{vp}{6}{7}, name=vP2
+					 [\Lab{vp}{7}{8}
+                       				 [\Lab{Piglet}{8}{9}, name=piglet  ]
+                      				 [\BLab{v$'$}{8}{11}
+                         					 [\BLab{v}{11}{37} ]
+                          					 [\Lab{VP}{11}{12}
+								[\Lab{Robin}{12}{13}, name=robin ]
+                               						[\Lab{V$'$}{12}{14}
+                                    						[\BLab{Sell}{14}{38} ]
+                                    						[\Lab{DP}{14}{15}, name=DP
+			       							[\Lab{D}{15}{16} ]
+                                        							[\Lab{RelP}{15}{17}, name = RelP
+											[\Lab{Rel$'$}{17}{18}
+                                            								[\BLab{Rel}{18}{34} ]
+                                            								[\Lab{CP}{18}{19}, name= CP
+				    									[\Lab{C$'$}{19}{20}
+                                                										[\BLab{C}{20}{36}  ]
+                                                										[\Lab{TP}{20}{21}, name=TP2
+				       											[\Lab{T$'$}{21}{22}
+                                                    												[\BLab{T}{22}{27} ]
+                                                    												[\Lab{vp}{22}{23}, name=vP3
+																	[\Lab{vp}{23}{24}, name=vP4
+																		[\Lab{vp}{24}{25}
+                                                       														 [\Lab{Pooh}{25}{26}, name=pooh ]
+                                                       														 [\BLab{v$'$}{25}{28} 
+					     															[\BLab{v}{28}{31} ]
+					     															[\Lab{VP}{28}{29}
+																					[\Lab{pro}{29}{30}, name=pro ]
+																					[\BLab{V$'$}{29}{32}
+																						[\Lab{Pick}{32}{33} ]
+																						[\BLab{Honeycomb}{32}{35}, name=honey ]
+																					 ] 
+					     															]
+					  														 ]
+																		]
+																	]
+                                                   												 ]
+                                                											]
+				   										]
+				 									 ] %C'                                        
+												]
+			      								 ]
+                                   							 ]
+                               							 ]
+                           						 ]
+                        					]
+						]	
+					]% third vp
+				]% second vp
+                   		 ]% first vp
+               	 ]												
+        ]
+]
+%
+\draw[move] (piglet) .. controls +(200:5em) and +(220:20em) .. (TP1);
+\draw[move] (robin) .. controls +(200:5em) and +(220:20em) .. (vP1);
+\draw[move] (DP) .. controls +(200:5em) and +(220:20em) .. (vP2);
+\draw[move] (TP2) .. controls +(200:5em) and +(220:20em) .. (RelP);
+\draw[move] (vP4) .. controls +(200:5em) and +(220:20em) .. (CP);
+\draw[move] (pooh) .. controls +(200:5em) and +(220:20em) .. (TP2);
+\draw[move] (pro) .. controls +(200:5em) and +(220:20em) .. (vP3);
+\draw[move] (honey) .. controls +(200:5em) and +(220:20em) .. (vP4);
+%\draw[move] (subject) .. controls +(200:5em) and +(220:7em) .. (SpecTP);
+%\draw[move] (object) .. controls +(70:8em) and +(190:4em) .. (SpecvP.south west);
+%\draw[move] (object) .. controls +(70:12em) and +(190:4em) .. (SpecCP.south west);
+\end{forest}
+}
+\end{document}
