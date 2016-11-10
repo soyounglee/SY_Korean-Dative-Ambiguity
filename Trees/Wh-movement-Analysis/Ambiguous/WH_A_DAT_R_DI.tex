@@ -1,0 +1,99 @@
+% Wh movement Analysis
+% Ambiguous- Relative clause attachment_DO-IO
+% Matrix verb - ditransitive
+% Embedded verb - ditransitive
+% Piglet-nom	Robin-dat	Pooh-nom	picked 	honeycomb	sold
+% Piglet sold Robin the honeycomb that Pooh picked.
+
+\documentclass[12pt]{article}
+
+\usepackage{graphics}
+\usepackage{amsmath}
+\usepackage{xspace}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{arrows.meta,arrows}
+\usepackage{forest}
+\forestset{.style={for tree={l=2.25em, l sep=1.75em, parent anchor=south, child anchor=north}}}
+\usepackage{mycommands}
+
+\begin{document}
+\resizebox{1.0\textwidth}{!}{
+\begin{forest}
+        [\Lab{CP}{1}{2}
+	[\Lab{C}{2}{3} ]
+	[\Lab{TP}{2}{4}, name = TP1
+		[\Lab{T$'$}{4}{5}
+			[\BLab{T}{5}{10} ]
+			[\Lab{vP}{5}{6}, name =vP1
+				[\Lab{vP}{6}{7}, name =vP2
+					[\Lab{vP}{7}{8}
+						[\Lab{Piglet}{8}{9}, name = piglet ]
+						[\BLab{v$'$}{8}{11}
+							[\BLab{v}{11}{38} ]
+							[\Lab{VP}{11}{12}
+								[\Lab{DP}{12}{13}, name =DP
+									[\Lab{D$'$}{13}{14} 
+									[\BLab{D}{14}{34}]
+										[\Lab{NP}{14}{15}
+											[\BLab{Honeycomb}{15}{35} ]
+											[\Lab{CP}{15}{16}, name =CP
+												[\Lab{C$'$}{16}{17}
+													[\BLab{C}{17}{27} ]
+													[\Lab{TP}{17}{18}, name =TP2
+														[\Lab{TP}{18}{19}, name = TP3
+														[\Lab{T$'$}{19}{20}
+															[\BLab{T}{20}{31} ]
+															[\Lab{vP}{20}{21}, name =vP3
+																[\Lab{vP}{21}{22}, name =vP4
+																	[\Lab{vP}{22}{23}
+																		[\BLab{Pooh}{23}{30}, name =pooh ]
+																		[\Lab{v$'$}{23}{24}
+																			[\BLab{v}{24}{32} ]
+																			[\Lab{VP}{24}{25}
+																				[\Lab{which}{25}{26}, name =which ]
+																				[\BLab{V$'$}{25}{28}
+																					[\BLab{Pick}{28}{33} ]
+																					[\Lab{Robin}{28}{29}, name =robin ]
+																				]
+																			]
+																		]
+																	]
+																]
+															]%vP
+														]%T'
+														]%TP
+													]%TP
+												]%C'
+											]%CP
+										]%Rel'
+									]%RelP
+								]%DP
+								[\BLab{V$'$}{12}{36}
+									[\BLab{Sell}{36}{39} ]
+									[\Lab{pro}{36}{37}, name =pro ]
+								]%V'
+							]%VP
+						]%v'
+					]%vP
+				]%vP
+			]%vP
+		]%T'
+	]%TP												
+        ]%CP
+%
+\draw[move] (piglet) .. controls +(200:5em) and +(220:20em) .. (TP1);
+\draw[move] (DP) .. controls +(200:5em) and +(220:20em) .. (vP1);
+\draw[move] (pro) .. controls +(200:5em) and +(220:20em) .. (vP2);
+\draw[move] (CP) .. controls +(200:5em) and +(220:20em) .. (DP);
+\draw[move] (vP3) .. controls +(200:5em) and +(220:20em) .. (CP);
+\draw[move] (vP4) .. controls +(200:5em) and +(220:20em) .. (TP2);
+\draw[move] (pooh) .. controls +(200:5em) and +(220:20em) .. (TP3);
+\draw[move] (which) .. controls +(200:5em) and +(220:20em) .. (vP3);
+\draw[move] (robin) .. controls +(200:5em) and +(220:20em) .. (vP4);
+%\draw[move] (subject) .. controls +(200:5em) and +(220:7em) .. (SpecTP);
+%\draw[move] (object) .. controls +(70:8em) and +(190:4em) .. (SpecvP.south west);
+%\draw[move] (object) .. controls +(70:12em) and +(190:4em) .. (SpecCP.south west);
+\end{forest}
+}
+\end{document}
