@@ -1,0 +1,99 @@
+% Wh movement Analysis
+% Unambiguous- Matrix attachment_DO-IO
+% Matrix verb - ditransitive
+% Embedded verb - ditransitive
+% Mom-nom	daughter-dat	uncle-nom	pro	bought	bike-acc	handed-down
+% Mom handed down her daughter the bike which her uncle bought for her(mom).
+
+\documentclass[12pt]{article}
+
+\usepackage{graphics}
+\usepackage{amsmath}
+\usepackage{xspace}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{arrows.meta,arrows}
+\usepackage{forest}
+\forestset{.style={for tree={l=2.25em, l sep=1.75em, parent anchor=south, child anchor=north}}}
+\usepackage{mycommands}
+
+\begin{document}
+\resizebox{1.0\textwidth}{!}{
+\begin{forest}
+        [\Lab{CP}{1}{2}
+	[\Lab{C}{2}{3} ]
+	[\Lab{TP}{2}{4}, name= TP1
+		[\Lab{T$'$}{4}{5}
+			[\BLab{T}{5}{11} ]
+			[\Lab{vP}{5}{6}, name=vP1
+				[\Lab{vP}{6}{7}, name=vP2
+					[\Lab{vP}{7}{8}, name=vP3
+						[\Lab{vP}{8}{9}
+							[\Lab{Mom}{9}{10}, name=mom ]
+							[\BLab{v$'$}{9}{12}
+								[\BLab{v}{12}{38} ]
+								[\Lab{VP}{12}{13}
+									[\BLab{DP}{13}{16}, name=DP
+										[\Lab{D$'$}{16}{17} 
+											[\BLab{D}{17}{36}]
+											[\Lab{NP}{17}{18}
+												[\BLab{Bike}{18}{37}, name=bike ]
+												[\Lab{CP}{18}{19}, name=CP
+													[\Lab{C$'$}{19}{20}
+													 	[\BLab{C}{20}{29} ]
+														[\Lab{TP}{20}{21}, name=TP2
+															[\Lab{T$'$}{21}{22}
+																[\BLab{T}{22}{31} ]
+																[\Lab{vP}{22}{34}, name=vP4
+																	[\Lab{vP}{23}{24}, name=vP5
+																		[\Lab{vP}{24}{25}
+																			[\BLab{Uncle}{25}{30}, name=uncle ]
+																			[\Lab{v$'$}{25}{26}
+																				[\BLab{v}{26}{34} ]
+																				[\Lab{VP}{26}{27}
+																					[\Lab{which}{27}{28}, name=which ]
+																					[\BLab{V$'$}{27}{32}
+																						[\BLab{Buy}{32}{35} ]
+																						[\Lab{pro}{32}{33}, name=pro ]
+																					]
+																				]
+																			]
+																		]
+																	]
+																]%vP23
+															]%T'22
+														]%TP21
+													]%C'20
+												]%CP
+											]%Rel'
+										]%RelP16
+									]%DP13
+									[\Lab{V$'$}{13}{14}
+										[\BLab{V}{14}{39} ]
+										[\Lab{Daughter}{14}{15}, name = daughter ]
+									]%V'13
+								]%VP12
+							]%v'9
+						]%vP8
+					]%vP7
+				]%vP6
+			]%vP5
+		]%T'4
+	]%TP2												
+        ]%CP1
+%
+\draw[move] (mom) .. controls +(200:5em) and +(220:20em) .. (TP1);
+\draw[move] (vP3) .. controls +(200:5em) and +(220:10em) .. (vP1);
+\draw[move] (DP) .. controls +(200:5em) and +(220:20em) .. (vP2);
+\draw[move] (daughter) .. controls +(200:5em) and +(220:20em) .. (vP3);
+\draw[move] (CP) .. controls +(200:5em) and +(220:20em) .. (DP);
+\draw[move] (vP4) .. controls +(200:5em) and +(220:20em) .. (CP);
+\draw[move] (uncle) .. controls +(200:5em) and +(220:20em) .. (TP2);
+\draw[move] (which) .. controls +(200:5em) and +(220:20em) .. (vP4);
+\draw[move] (pro) .. controls +(200:5em) and +(220:20em) .. (vP5);
+%\draw[move] (subject) .. controls +(200:5em) and +(220:7em) .. (SpecTP);
+%\draw[move] (object) .. controls +(70:8em) and +(190:4em) .. (SpecvP.south west);
+%\draw[move] (object) .. controls +(70:12em) and +(190:4em) .. (SpecCP.south west);
+\end{forest}
+}
+\end{document}

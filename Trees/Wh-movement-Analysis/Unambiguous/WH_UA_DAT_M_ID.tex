@@ -1,0 +1,96 @@
+% Wh movement Analysis
+% Unambiguous- Matrix attachment_IO-DO
+% Matrix verb - ditransitive
+% Embedded verb - ditransitive
+% Mom-nom	daughter-dat	uncle-nom	pro	bought	bike-acc	handed-down
+% Mom handed down her daughter the bike which her uncle bought for her(mom).
+
+\documentclass[12pt]{article}
+
+\usepackage{graphics}
+\usepackage{amsmath}
+\usepackage{xspace}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{arrows.meta,arrows}
+\usepackage{forest}
+\forestset{.style={for tree={l=2.25em, l sep=1.75em, parent anchor=south, child anchor=north}}}
+\usepackage{mycommands}
+
+\begin{document}
+\resizebox{1.0\textwidth}{!}{
+\begin{forest}
+        [\Lab{CP}{1}{2}
+        	[\Lab{C}{2}{3} ]
+           [\Lab{TP}{2}{4}, name= TP1
+                	[\Lab{T$'$}{4}{5}
+                   		 [\BLab{T}{5}{10} ]
+                   		 [\Lab{vP}{5}{6}, name=vP1
+				[\Lab{vp}{6}{7}, name=vP2
+					 [\Lab{vp}{7}{8}
+                       				 [\Lab{Mom}{8}{9}, name=mom  ]
+                      				 [\BLab{v$'$}{8}{11}
+                         					 [\BLab{v}{11}{37} ]
+                          					 [\Lab{VP}{11}{12}
+								[\Lab{Daughter}{12}{13}, name=daughter ]
+                               						[\Lab{V$'$}{12}{14}
+                                    						[\BLab{Hand-down}{14}{38} ]
+                                    						[\Lab{DP}{14}{15}, name=DP
+										[\Lab{D$'$}{15}{16}
+			       								[\BLab{D}{16}{35} ]
+                                        								[\Lab{NP}{16}{17}
+												[\BLab{Bike}{17}{36} ]
+												[\Lab{CP}{17}{18}, name=CP
+                                            									[\Lab{C$'$}{18}{19} 
+				    											[\BLab{C}{19}{29}]
+                                                											[\Lab{TP}{19}{20}, name=TP2  
+                                                												[\Lab{T$'$}{20}{21}
+				       													[\BLab{T}{21}{31}]
+                                                    													[\Lab{VP}{21}{22}, name=vP3 
+                                                    														[\Lab{vp}{22}{23}, name=vP4
+																			[\Lab{vp}{23}{24}
+                                                       															[\BLab{Uncle}{24}{30}, name=uncle ]
+                                                       														 	[\Lab{v$'$}{24}{25} 
+					     																[\BLab{v}{25}{33} ]
+					     																[\Lab{VP}{25}{26}
+																						[\BLab{pro}{26}{32}, name=pro ]
+																						[\Lab{V$'$}{26}{27}
+																							[\BLab{Buy}{27}{34} ]
+																							[\Lab{which}{27}{28}, name=which ]
+																						 ] 
+					     																]
+					  															 ]
+																			]
+																		]
+                                                   													 ]
+                                                												]
+				   											]
+				 										 ]                                        
+													]
+			      									 ]
+                                   								 ]
+                               								 ]
+                           							 ]
+                        						]
+							]
+						]	
+					]% third vp
+				]% second vp
+                   		 ]% first vp
+               	 ]												
+        ]
+%
+\draw[move] (mom) .. controls +(200:5em) and +(220:20em) .. (TP1);
+\draw[move] (daughter) .. controls +(200:5em) and +(220:20em) .. (vP1);
+\draw[move] (DP) .. controls +(200:5em) and +(220:20em) .. (vP2);
+\draw[move] (CP) .. controls +(200:5em) and +(220:20em) .. (DP);
+\draw[move] (vP4) .. controls +(200:5em) and +(220:20em) .. (CP);
+\draw[move] (uncle) .. controls +(200:5em) and +(220:20em) .. (TP2);
+\draw[move] (pro) .. controls +(200:5em) and +(220:20em) .. (vP3);
+\draw[move] (which) .. controls +(200:5em) and +(220:20em) .. (vP4);
+%\draw[move] (subject) .. controls +(200:5em) and +(220:7em) .. (SpecTP);
+%\draw[move] (object) .. controls +(70:8em) and +(190:4em) .. (SpecvP.south west);
+%\draw[move] (object) .. controls +(70:12em) and +(190:4em) .. (SpecCP.south west);
+\end{forest}
+}
+\end{document}
