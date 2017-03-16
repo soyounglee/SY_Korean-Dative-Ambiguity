@@ -1,0 +1,61 @@
+[CP
+	[C]
+	[TP, name= TP1
+		[T$'$
+			[T]
+			[vP, name=vP1
+				[vP, name=vP2
+					[vP, name=vP3
+						[vP
+							[Mom, name=mom ]
+							[v$'$
+								[v]
+								[VP
+									[DP, name=DP
+										[D$'$
+											[D]
+											[NP
+												[Bike}, name=bike ]
+												[CP, name=CP
+													[C$'$
+													 	[C ]
+														[TP, name=TP2
+															[T$'$
+																[T ]
+																[vP, name=vP4
+																	[vP, name=vP5
+																		[vP
+																			[Uncle, name=uncle ]
+																			[v$'$
+																				[v]
+																				[VP
+																					[which, name=which ]
+																					[V$'$
+																						[Buy]
+																						[pro, name=pro ]
+																					]
+																				]
+																			]
+																		]
+																	]
+																]
+															]
+														]
+													]
+												]
+											]
+										]
+									]
+									[V$'$
+										[V]
+										[aughter, name = daughter ]
+									]
+								]
+							]
+						]
+					]
+				]
+			]
+		]
+	]											
+]

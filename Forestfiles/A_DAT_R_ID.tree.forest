@@ -1,0 +1,62 @@
+
+        [CP
+        	[C]
+           [TP, name= TP1
+                	[T$'$
+                   		 [T]
+                   		 [vP, name= vP1
+				[vP, name=vP2
+					[vP
+                       				 [Piglet, name=piglet  ]
+                      				 [v$'$
+                         					 [v ]
+                          					 [\Lab{VP
+								[pro, name=pro ]
+								[V$'$
+                                    						[Sell ]
+                                    						[DP, name=DP
+			       							[D ]
+                                        							[RelP, name=RelP
+											[Rel$'$
+                                            								[Rel]
+                                            								[CP, name=CP
+				    									[C$'$
+                                                										[C ]
+                                                										[TP, name=TP2
+															[TP, name=TP3
+					       											[T$'$
+	                                                    												[T]
+	                                                    												[vp, name=vP3
+																		[vp, name=vP4
+																			[vp
+	                                                       														 [Pooh, name=pooh]
+	                                                       														 [v$'$
+						     															[v ]
+						     															[VP
+																						[Robin, name=robin ]
+																						[V$'$
+																							[Pick ]
+																							[Honeycomb, name=honey ]
+																						 ] 
+						     															]
+						  														 ]
+																			]
+																		]
+	                                                   												 ]
+	                                                											]
+															]
+				   										]
+				 									 ]                                       
+												]
+			      								 ]
+                                   							 ]
+                               							 ]
+								]
+                        					]
+						]	
+					]
+				]
+                   		 ]
+               	 ]
+            ]												
+        ]

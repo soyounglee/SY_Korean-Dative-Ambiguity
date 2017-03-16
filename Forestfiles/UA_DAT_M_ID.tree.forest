@@ -1,0 +1,58 @@
+      [CP
+        	[C]
+           [TP, name=TP1spec
+                	[T$'$
+                   		 [T]
+                   		 [vP, name=vP1spec
+				[vP, name=vP2spec
+					 [p
+                       				 [Mom, name=mom  ]
+                      				 [v$'$
+                         					 [v]
+                          					 [VP
+								[Daughter, name=daughter ]
+                               						[V$'$
+                                    						[Hand-down]
+                                    						[DP,name=DP
+			       							[D]
+                                        							[RelP, name=RelPspec
+											[Rel$'$
+                                            								[Rel ]
+                                            								[CP, name=CPspec
+				    									[C$'$
+                                                										[C]
+                                                										[TP, name=TP2
+				       											[T$'$
+                                                    												[T]
+                                                    												[vp, name= vP3spec
+																	[vp, name=vP4spec
+																		[vp
+                                                       														 [Uncle, name=uncle]
+                                                       														 [v$'$
+					     															[VP
+																					[pro, name=pro ]
+																					[V$'$
+																						[Buy]
+																						[Bike, name=bike ]
+																					 ] 
+					     															]
+					  														 ]
+																		]
+																	]
+                                                   												 ]
+                                                											]
+				   										]
+				 									 ]                                    
+												]
+			      								 ]
+                                   							 ]
+                               							 ]
+                           						 ]
+                        					]
+						]	
+					]%
+				]
+                   		 ]
+               	 ]
+            ]												
+        ]

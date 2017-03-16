@@ -1,0 +1,112 @@
+\node[index]            at (t)                        {1};
+\node[outdex]           at (t)                        {2};
+%
+\node[index]            at (t212112222121)           {20};
+\node[outdex]           at (t212112222121)           {21};
+%
+\node[index]            at (t21211222)               {13};
+\node[outdex]           at (t21211222)               {15};
+%
+\node[index]            at (t2121122)                {11};
+\node[outdex]           at (t2121122)                {13};
+%
+\node[index]            at (robin)                   {13};
+\node[outdex]           at (robin)                   {14};
+%
+\node[index]            at (t212112222122121)        {25};
+\node[outdex]           at (t212112222122121)        {26};
+%
+\node[index]            at (t21211222211)            {18};
+\node[outdex]           at (t21211222211)            {19};
+%
+\node[index]            at (t2121122221221212112)    {30};
+\node[outdex]           at (t2121122221221212112)    {32};
+%
+\node[index]            at (TP2)                     {23};
+\node[outdex]           at (TP2)                     {25};
+%
+\node[index]            at (TP1)                      {2};
+\node[outdex]           at (TP1)                      {4};
+%
+\node[index]            at (vP4)                     {28};
+\node[outdex]           at (vP4)                     {29};
+%
+\node[index]            at (t211)                     {5};
+\node[outdex]           at (t211)                     {6};
+%
+\node[index]            at (t21)                      {4};
+\node[outdex]           at (t21)                      {5};
+%
+\node[index]            at (pro)                     {34};
+\node[outdex]           at (pro)                     {35};
+%
+\node[index]            at (t2121122221221)          {22};
+\node[outdex]           at (t2121122221221)          {23};
+%
+\node[index]            at (DP)                      {15};
+\node[outdex]           at (DP)                      {17};
+%
+\node[index]            at (t212112222122121211222)  {34};
+\node[outdex]           at (t212112222122121211222)  {36};
+%
+\node[index]            at (t21211222212211)         {23};
+\node[outdex]           at (t21211222212211)         {24};
+%
+\node[index]            at (t21211222212212121121)   {32};
+\node[outdex]           at (t21211222212212121121)   {33};
+%
+\node[index]            at (piglet)                   {9};
+\node[outdex]           at (piglet)                  {10};
+%
+\node[index]            at (vP3)                     {26};
+\node[outdex]           at (vP3)                     {28};
+%
+\node[index]            at (t2121121)                {11};
+\node[outdex]           at (t2121121)                {12};
+%
+\node[index]            at (CP)                      {20};
+\node[outdex]           at (CP)                      {22};
+%
+\node[index]            at (t212112222122121211)     {29};
+\node[outdex]           at (t212112222122121211)     {30};
+%
+\node[index]            at (t2121122221221211)       {26};
+\node[outdex]           at (t2121122221221211)       {27};
+%
+\node[index]            at (vP1)                      {5};
+\node[outdex]           at (vP1)                      {7};
+%
+\node[index]            at (which)                   {36};
+\node[outdex]           at (which)                   {38};
+%
+\node[index]            at (t2121122221)             {17};
+\node[outdex]           at (t2121122221)             {18};
+%
+\node[index]            at (vP2)                      {7};
+\node[outdex]           at (vP2)                      {8};
+%
+\node[index]            at (t21211222212212121122)   {32};
+\node[outdex]           at (t21211222212212121122)   {34};
+%
+\node[index]            at (t212112221)              {15};
+\node[outdex]           at (t212112221)              {16};
+%
+\node[index]            at (t212112)                  {9};
+\node[outdex]           at (t212112)                 {11};
+%
+\node[index]            at (t21211)                   {8};
+\node[outdex]           at (t21211)                   {9};
+%
+\node[index]            at (pooh)                    {30};
+\node[outdex]           at (pooh)                    {31};
+%
+\node[index]            at (t2121122221221212112221)  {36};
+\node[outdex]           at (t2121122221221212112221)  {37};
+%
+\node[index]            at (t1)                       {2};
+\node[outdex]           at (t1)                       {3};
+%
+\node[index]            at (t21211222212)            {18};
+\node[outdex]           at (t21211222212)            {20};
+%
+%

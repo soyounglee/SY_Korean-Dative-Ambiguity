@@ -1,0 +1,8 @@
+\draw[move={1}] (mom) .. controls +(200:5em) and +(220:20em) .. (TP1);
+\draw[move={2}] (daughter) .. controls +(200:5em) and +(220:20em) .. (vP1);
+\draw[move={3}] (DP) .. controls +(200:5em) and +(220:20em) .. (vP2);
+\draw[move={4}] (CP) .. controls +(200:5em) and +(220:20em) .. (DP);
+\draw[move={5}] (vP4) .. controls +(200:5em) and +(220:20em) .. (CP);
+\draw[move={6}] (uncle) .. controls +(200:5em) and +(220:20em) .. (TP2);
+\draw[move={7}] (pro) .. controls +(200:5em) and +(220:20em) .. (vP3);
+\draw[move={8}] (which) .. controls +(200:5em) and +(220:20em) .. (vP4);

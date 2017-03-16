@@ -1,0 +1,62 @@
+[CP
+	[C]
+	[TP, name = TP1
+		[T$'$
+			[T]
+			[vP, name =vP1
+				[vP, name =vP2
+					[vP
+						[Piglet, name = piglet ]
+						[v$'$
+							[v]
+							[VP
+								[DP, name =DP
+									[D$'$
+									[D]
+										[NP
+											[Honeycomb]
+											[CP, name =CP
+												[C$'$
+													[C ]
+													[TP, name =TP2
+														[TP, name = TP3
+														[T$'$
+															[T]
+															[vP, name =vP3
+																[vP, name =vP4
+																	[vP
+																		[Pooh, name =pooh ]
+																		[v$'$
+																			[v]
+																			[VP
+																				[which, name =which ]
+																				[V$'$
+																					[Pick]
+																					[Robin, name =robin ]
+																				]
+																			]
+																		]
+																	]
+																]
+															]
+														]
+														]
+													]
+												]
+											]
+										]
+									]
+								]
+								[V$'$
+									[Sell]
+									[pro, name =pro ]
+								]
+							]
+						]
+					]
+				]
+			]
+		]
+	]											
+]
+

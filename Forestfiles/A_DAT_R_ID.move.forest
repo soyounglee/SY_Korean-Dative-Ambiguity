@@ -1,0 +1,9 @@
+\draw[move = {piglettoTP1}] (piglet) .. controls +(200:5em) and +(220:20em) .. (TP1);
+\draw[move= {protovP1}] (pro) .. controls +(200:5em) and +(220:20em) .. (vP1);
+\draw[move= {DPtovP2}] (DP) .. controls +(200:5em) and +(220:20em) .. (vP2);
+\draw[move={TP2toRelP}] (TP2) .. controls +(200:5em) and +(220:20em) .. (RelP);
+\draw[move={vP4toCP}] (vP4) .. controls +(200:5em) and +(220:20em) .. (CP);
+\draw[move={vP3toTP2}] (vP3) .. controls +(200:5em) and +(220:10em) .. (TP2);
+\draw[move={poohtoTP3}] (pooh) .. controls +(200:5em) and +(220:20em) .. (TP3);
+\draw[move={robintovP3}] (robin) .. controls +(200:5em) and +(220:20em) .. (vP3);
+\draw[move={honeytovP4}] (honey) .. controls +(200:5em) and +(220:20em) .. (vP4);

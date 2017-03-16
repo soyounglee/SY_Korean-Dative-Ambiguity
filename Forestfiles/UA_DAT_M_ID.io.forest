@@ -1,0 +1,109 @@
+\node[index]            at (t)                        {1};
+\node[outdex]           at (t)                        {2};
+%
+\node[index]            at (t21211222221)            {19};
+\node[outdex]           at (t21211222221)            {20};
+%
+\node[index]            at (vP4spec)                 {28};
+\node[outdex]           at (vP4spec)                 {29};
+%
+\node[index]            at (t21211222)               {13};
+\node[outdex]           at (t21211222)               {15};
+%
+\node[index]            at (t2121122)                {11};
+\node[outdex]           at (t2121122)                {13};
+%
+\node[index]            at (daughter)                {13};
+\node[outdex]           at (daughter)                {14};
+%
+\node[index]            at (t212112222212121)        {25};
+\node[outdex]           at (t212112222212121)        {26};
+%
+\node[index]            at (t212112222212121211)     {29};
+\node[outdex]           at (t212112222212121211)     {30};
+%
+\node[index]            at (TP1spec)                  {2};
+\node[outdex]           at (TP1spec)                  {4};
+%
+\node[index]            at (t211)                     {5};
+\node[outdex]           at (t211)                     {6};
+%
+\node[index]            at (t21)                      {4};
+\node[outdex]           at (t21)                      {5};
+%
+\node[index]            at (t2121122222121)          {22};
+\node[outdex]           at (t2121122222121)          {23};
+%
+\node[index]            at (DP)                      {15};
+\node[outdex]           at (DP)                      {17};
+%
+\node[index]            at (t21211222221211)         {23};
+\node[outdex]           at (t21211222221211)         {24};
+%
+\node[index]            at (t2121122222121212112121)  {35};
+\node[outdex]           at (t2121122222121212112121)  {36};
+%
+\node[index]            at (mom)                      {9};
+\node[outdex]           at (mom)                     {10};
+%
+\node[index]            at (bike)                    {35};
+\node[outdex]           at (bike)                    {37};
+%
+\node[index]            at (t2121121)                {11};
+\node[outdex]           at (t2121121)                {12};
+%
+\node[index]            at (TP2)                     {23};
+\node[outdex]           at (TP2)                     {25};
+%
+\node[index]            at (uncle)                   {30};
+\node[outdex]           at (uncle)                   {31};
+%
+\node[index]            at (t212112222211)           {20};
+\node[outdex]           at (t212112222211)           {21};
+%
+\node[index]            at (t2121122222121212112)    {30};
+\node[outdex]           at (t2121122222121212112)    {32};
+%
+\node[index]            at (vP1spec)                  {5};
+\node[outdex]           at (vP1spec)                  {7};
+%
+\node[index]            at (pro)                     {33};
+\node[outdex]           at (pro)                     {34};
+%
+\node[index]            at (t21211222221212121121)   {32};
+\node[outdex]           at (t21211222221212121121)   {33};
+%
+\node[index]            at (t2121122221)             {17};
+\node[outdex]           at (t2121122221)             {18};
+%
+\node[index]            at (vP2spec)                  {7};
+\node[outdex]           at (vP2spec)                  {8};
+%
+\node[index]            at (CPspec)                  {20};
+\node[outdex]           at (CPspec)                  {22};
+%
+\node[index]            at (t2121122222121211)       {26};
+\node[outdex]           at (t2121122222121211)       {27};
+%
+\node[index]            at (t212112221)              {15};
+\node[outdex]           at (t212112221)              {16};
+%
+\node[index]            at (t212112)                  {9};
+\node[outdex]           at (t212112)                 {11};
+%
+\node[index]            at (t21211)                   {8};
+\node[outdex]           at (t21211)                   {9};
+%
+\node[index]            at (t212112222212121211212)  {33};
+\node[outdex]           at (t212112222212121211212)  {35};
+%
+\node[index]            at (vP3spec)                 {26};
+\node[outdex]           at (vP3spec)                 {28};
+%
+\node[index]            at (t1)                       {2};
+\node[outdex]           at (t1)                       {3};
+%
+\node[index]            at (RelPspec)                {17};
+\node[outdex]           at (RelPspec)                {19};
+%
+%
