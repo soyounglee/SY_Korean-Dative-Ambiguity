@@ -1,0 +1,12 @@
+# General format:
+# name; LaTeX command; winner; loser
+#
+#
+A_DAT_ID; ; A_DAT_M_ID; A_DAT_R_ID;
+A_DAT_DI; ; A_DAT_M_DI; A_DAT_R_DI;
+UA_DAT_ID; ; UA_DAT_M_ID; UA_DAT_R_ID;
+UA_DAT_DI; ; UA_DAT_M_DI; UA_DAT_R_DI;
+WH_A_DAT_ID; ; WH_A_DAT_M_ID; WH_A_DAT_R_ID;
+WH_A_DAT_DI; ; WH_A_DAT_M_DI; WH_A_DAT_R_DI;
+WH_UA_DAT_ID; ; WH_UA_DAT_M_ID; WH_UA_DAT_R_ID;
+WH_UA_DAT_DI; ; WH_UA_DAT_M_DI; WH_UA_DAT_R_DI;
