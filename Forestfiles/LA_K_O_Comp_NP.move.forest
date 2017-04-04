@@ -1,0 +1,7 @@
+\draw[move={1}] (DP) .. controls +(200:5em) and +(220:20em) .. (FP);
+\draw[move={2}] (FP) .. controls +(200:5em) and +(220:20em) .. (NP2);
+\draw[move={3}] (son) .. controls +(200:5em) and +(220:20em) .. (vP);
+\draw[move={4}] (I) .. controls +(200:5em) and +(220:20em) .. (TP);
+\draw[move={5}] (son) .. controls +(200:5em) and +(220:20em) .. (CP);
+\draw[move={6}] (TP) .. controls +(200:5em) and +(220:20em) .. (RelP);
+\draw[move={7}] (TP) .. controls +(200:5em) and +(220:20em) .. (NP1);

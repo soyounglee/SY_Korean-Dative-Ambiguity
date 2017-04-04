@@ -1,43 +1,44 @@
 [CP
-	[C]
+	[C1]
 	[TP, name = TP1
 		[T$'$
 			[T]
 			[vP, name = vP1
 				[vP, name = vP2
 					[vP, name = vP3
-					[vP, name = vP4
-						[Piglet}, name = piglet ]
-						[v$'$
-							[v]
-							[VP
-								[DP, name = DP
-									[D]
-									[RelP, name = RelP
-										[Rel$'$
-											[Rel]
-											[CP, name = CP
-												[C$'$
-													[C]
+						[vP, name = vP4
+							[Piglet, name = piglet ]
+							[v$'$
+								[v1]
+								[VP
+									[DP, name = DP
+										[D]
+										[RelP, name = RelP
+											[Rel$'$
+												[Rel]
+												[CP, name = CP
+													[C$'$
+														[C2]
 														[TP, name = TP2
-														[T$'$
-															[T ]
-															[vP, name = vP5
-																[vP, name = vP6
-																	[vP
-																		[Pooh, name = pooh ]
-																		[v$'$
-																			[v]
-																			[VP
-																				[honeycomb, name = honey ]
-																				[V$'$
-																					[Pick]
-																					[pro, name = pro ]
+															[T$'$
+																[T2 ]
+																[vP, name = vP5
+																	[vP, name = vP6
+																		[vP
+																			[Pooh, name = pooh ]
+																			[v$'$
+																				[v2]
+																				[VP
+																					[honeycomb, name = honey ]
+																					[V$'$
+																						[Pick]
+																						[pro, name = pro ]
+																					]
 																				]
 																			]
 																		]
-																	]
-																] 
+																	] 
+																]
 															]
 														]
 													]
@@ -45,17 +46,16 @@
 											]
 										]
 									]
-								]
-								[V$'$
-									[V]
-									[Robin, name = robin ]
+									[V$'$
+										[Sell]
+										[Robin, name = robin ]
+									]
 								]
 							]
 						]
 					]
 				]
 			]
-		]
-	]											
-        ]
+		]											
+    ]
 ]

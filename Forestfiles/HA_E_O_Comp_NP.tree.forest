@@ -1,0 +1,32 @@
+[DP
+	[the1]
+	[NP, name = NP1
+		[N$'$
+			[who]
+			[TP, name = TP
+				[T$'$
+					[T]
+					[vP
+						[I, name = I]
+						[v$'$
+							[v]
+							[VP
+								[Saw]
+								[NP, name = NP2
+									[son]
+									[PP
+										[of]
+										[DP
+											[the2]
+											[doctor]
+										]
+									]
+								]
+							]
+						]
+					]
+				]
+			]
+		]
+	]
+]

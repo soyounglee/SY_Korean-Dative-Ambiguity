@@ -1,33 +1,33 @@
 [CP
-	[C]
+	[C1]
 	[TP, name= TP1
 		[T$'$
-			[T]
+			[T1]
 			[vP, name=vP1
 				[vP, name=vP2
 					[vP, name=vP3
 						[vP
 							[Mom, name=mom ]
 							[v$'$
-								[v]
+								[v1]
 								[VP
 									[DP, name=DP
 										[D$'$
 											[D]
 											[NP
-												[Bike}, name=bike ]
+												[Bike, name=bike ]
 												[CP, name=CP
 													[C$'$
-													 	[C ]
+													 	[C2 ]
 														[TP, name=TP2
 															[T$'$
-																[T ]
+																[T2 ]
 																[vP, name=vP4
 																	[vP, name=vP5
 																		[vP
 																			[Uncle, name=uncle ]
 																			[v$'$
-																				[v]
+																				[v2]
 																				[VP
 																					[which, name=which ]
 																					[V$'$
@@ -47,8 +47,8 @@
 										]
 									]
 									[V$'$
-										[V]
-										[aughter, name = daughter ]
+										[Hand-down]
+										[Daughter, name = daughter ]
 									]
 								]
 							]

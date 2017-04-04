@@ -1,59 +1,59 @@
-        [CP
-        	[C]
-           [TP, name = TP1
-                	[T$'$
-                   		 [T]
-                   		 [vP, name = vP1
+[CP
+  [C1]
+  [TP, name = TP1
+    [T$'$
+      [T1]
+      [vP, name = vP1
 				[vP, name =vP2
 					 [vP
-                       				 [Piglet, name =piglet]
-                      				 [v$'$
-                         					 [v]
-                          					 [VP
-								[Robin, name =robin ]
-                               						[V$'$
-                                    						[Sell]
-                                    						[DP, name =DP
-			       							[D$'$
-                                        								[D]
-											[NP
-                                            								[Honeycomb]
-                                            								[CP, name =CP
-				    									[C$'$
-                                                										[C]
-                                                										[TP, name =TP2
-				       											[T$'$
-                                                    												[T]
-                                                    												[vP, name =vP3
-																	[vP, name =vP4
-																		[vP
-                                                       														 [Pooh, name =pooh]
-                                                       														 [v$'$
-					     															[v]
-					     															[VP
-																					[pro, name =pro]
-																					[V$'$
-																						[Pick]
-																						[which, name =which]
-																					 ] 
-					     															]
-					  														 ]
-																		]
-																	]
-                                                   												 ]
-                                                											]
-				   										]
-				 									 ]                                   
-												]
-			      								 ]
-                                   							 ]
-                               							 ]
-                           						 ]
-                        					]
-						]	
-					]
-				]
-                   		 ]
-               	 ]												
-        ]
+            [Piglet, name =piglet]
+            [v$'$
+              [v1]
+              [VP
+							  [Robin, name =robin ]
+                [V$'$
+                  [Sell]
+                  [DP, name =DP
+		      					[D$'$
+                    [D]
+										  [NP
+                        [Honeycomb]
+                        [CP, name =CP
+				    							[C$'$
+                            [C2]
+                            [TP, name =TP2
+				     									[T$'$
+                                [T2]
+                                [vP, name =vP3
+																  [vP, name =vP4
+																	  [vP
+                                      [Pooh, name =pooh]
+                                      [v$'$
+					     													[v2]
+					     													[VP
+																				  [pro, name =pro]
+																				  [V$'$
+																					  [Pick]
+																					  [which, name =which]
+																				  ] 
+				     														]
+				  														]
+																	  ]
+																  ]
+                                ]
+                              ]
+			   										]
+			 									  ]                                   
+											  ]
+			     						]
+                    ]
+                  ]
+                ]
+              ]
+					  ]	
+				  ]
+			  ]
+      ]
+    ]												
+  ]
 ]

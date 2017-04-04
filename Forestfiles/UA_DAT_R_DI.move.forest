@@ -1,8 +1,8 @@
-\draw[move={1}] (mom) .. controls +(200:5em) and +(220:20em) .. (TP1);
-\draw[move={2}] (DP) .. controls +(200:5em) and +(220:20em) .. (vP1);
-\draw[move={3}] (TP2) .. controls +(200:5em) and +(220:20em) .. (RelP);
-\draw[move={4}] (vP2) .. controls +(200:5em) and +(220:20em) .. (CP);
-\draw[move={5}] (vP3) .. controls +(200:5em) and +(220:20em) .. (TP2);
-\draw[move={6}] (uncle) .. controls +(200:5em) and +(220:20em) .. (TP3);
-\draw[move={7}] (bike) .. controls +(200:5em) and +(220:20em) .. (vP2);
 \draw[move={8}] (daughter) .. controls +(200:5em) and +(220:20em) .. (vP3);
+\draw[move={7}] (bike) .. controls +(200:5em) and +(220:20em) .. (vP2);
+\draw[move={6}] (uncle) .. controls +(200:5em) and +(220:20em) .. (TP3);
+\draw[move={5}] (daughter) .. controls +(200:5em) and +(220:20em) .. (TP2);
+\draw[move={4}] (bike) .. controls +(200:5em) and +(220:20em) .. (CP);
+\draw[move={3}] (TP2) .. controls +(200:5em) and +(220:20em) .. (RelP);
+\draw[move={2}] (DP) .. controls +(200:5em) and +(220:20em) .. (vP1);
+\draw[move={1}] (mom) .. controls +(200:5em) and +(220:20em) .. (TP1);

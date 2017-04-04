@@ -1,0 +1,2 @@
+\draw[move={1}] (doctor) .. controls +(200:5em) and +(220:20em) .. (NP);
+\draw[move={2}] (I) .. controls +(200:5em) and +(220:20em) .. (TP);

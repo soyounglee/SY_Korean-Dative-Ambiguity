@@ -1,0 +1,46 @@
+[DP
+	[D]
+	[RelP, name = RelP
+		[Rel$'$
+			[Rel]
+			[CP, name = CP
+				[C$'$
+					[C]
+					[TP, name = TP
+						[T$'$
+							[T]
+							[vP, name = vP
+								[vP
+									[DP, name = DP
+										[D1]
+										[NP, name = NP
+											[NP
+												[son]
+												[FP, name = FP
+													[FP
+														[-uy]
+														[DP, name = DP2
+															[D2]
+															[doctor]
+														]
+													]
+												]
+											]
+										]
+									]
+									[v$'$
+										[v]
+										[VP
+											[play]
+											[soccer, name = soccer]
+										]
+									]
+								]
+							]
+						]
+					]
+				]
+			]
+		]
+	]
+]

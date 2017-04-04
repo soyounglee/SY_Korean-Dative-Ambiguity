@@ -1,0 +1,85 @@
+\node[index]            at (t)                        {1};
+\node[outdex]           at (t)                        {2};
+%
+\node[index]            at (NP1)                      {2};
+\node[outdex]           at (NP1)                      {4};
+%
+\node[index]            at (t2111121212121)          {16};
+\node[outdex]           at (t2111121212121)          {17};
+%
+\node[index]            at (TP)                      {10};
+\node[outdex]           at (TP)                      {11};
+%
+\node[index]            at (t211211)                 {22};
+\node[outdex, boxed]    at (t211211)                 {26};
+%
+\node[index]            at (t2111121211)             {12};
+\node[outdex]           at (t2111121211)             {13};
+%
+\node[index]            at (t21121)                  {21};
+\node[outdex]           at (t21121)                  {22};
+%
+\node[index]            at (t211112121212)           {15};
+\node[outdex]           at (t211112121212)           {16};
+%
+\node[index]            at (t211)                     {5};
+\node[outdex]           at (t211)                     {6};
+%
+\node[index]            at (t1)                       {2};
+\node[outdex]           at (t1)                       {3};
+%
+\node[index]            at (t21111)                   {7};
+\node[outdex]           at (t21111)                   {8};
+%
+\node[index]            at (doctor)                  {23};
+\node[outdex]           at (doctor)                  {25};
+%
+\node[index]            at (t21111212121221)         {18};
+\node[outdex]           at (t21111212121221)         {19};
+%
+\node[index]            at (RelP)                     {6};
+\node[outdex]           at (RelP)                     {7};
+%
+\node[index]            at (vP)                      {12};
+\node[outdex]           at (vP)                      {14};
+%
+\node[index]            at (t211212)                 {22};
+\node[outdex]           at (t211212)                 {23};
+%
+\node[index]            at (t2111121212122)          {16};
+\node[outdex]           at (t2111121212122)          {18};
+%
+\node[index]            at (t21111212121)            {14};
+\node[outdex]           at (t21111212121)            {15};
+%
+\node[index]            at (soccer)                  {18};
+\node[outdex]           at (soccer)                  {20};
+%
+\node[index]            at (CP)                       {8};
+\node[outdex]           at (CP)                       {9};
+%
+\node[index]            at (NP2)                      {4};
+\node[outdex]           at (NP2)                      {5};
+%
+\node[index]            at (t2112121)                {23};
+\node[outdex]           at (t2112121)                {24};
+%
+\node[index]            at (t211112121)              {11};
+\node[outdex]           at (t211112121)              {12};
+%
+\node[index]            at (FP)                       {6};
+\node[outdex, boxed]    at (FP)                      {21};
+%
+\node[index]            at (t211111)                  {8};
+\node[outdex, boxed]    at (t211111)                 {27};
+%
+\node[index]            at (t2111121)                 {9};
+\node[outdex]           at (t2111121)                {10};
+%
+\node[index]            at (son)                     {15};
+\node[outdex, boxed]    at (son)                     {28};
+%
+\node[index]            at (t21111211)               {10};
+\node[outdex, boxed]    at (t21111211)               {29};
+%
+%

@@ -1,8 +1,8 @@
-\draw[move={1}] (mom) .. controls +(200:5em) and +(220:20em) .. (TP1spec);
-\draw[move={2}] (daughter) .. controls +(200:5em) and +(200:18em) .. (vP1spec);
-\draw[move={3}] (DP) .. controls +(200:5em) and +(220:20em) .. (vP2spec);
-\draw[move={4}] (TP2) .. controls +(200:5em) and +(220:20em) .. (RelPspec);
-\draw[move={5}] (vP4spec) .. controls +(200:5em) and +(220:20em) .. (CPspec);
-\draw[move={6}] (uncle) .. controls +(200:5em) and +(220:20em) .. (TP2);
-\draw[move={7}] (pro) .. controls +(200:5em) and +(220:20em) .. (vP3spec);
 \draw[move={8}] (bike) .. controls +(200:5em) and +(220:20em) .. (vP4spec);
+\draw[move={7}] (pro) .. controls +(200:5em) and +(220:20em) .. (vP3spec);
+\draw[move={6}] (uncle) .. controls +(200:5em) and +(220:20em) .. (TP2);
+\draw[move={5}] (bike) .. controls +(200:5em) and +(220:20em) .. (CPspec);
+\draw[move={4}] (TP2) .. controls +(200:5em) and +(220:20em) .. (RelPspec);
+\draw[move={3}] (DP) .. controls +(200:5em) and +(220:20em) .. (vP2spec);
+\draw[move={2}] (daughter) .. controls +(200:5em) and +(200:18em) .. (vP1spec);
+\draw[move={1}] (mom) .. controls +(200:5em) and +(220:20em) .. (TP1spec);

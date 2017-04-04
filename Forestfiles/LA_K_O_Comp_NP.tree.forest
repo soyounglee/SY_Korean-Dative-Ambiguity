@@ -1,0 +1,45 @@
+[DP
+	[D1]
+	[NP, name = NP1
+		[NP, name = NP2
+			[NP
+				[RelP, name = RelP
+					[Rel$'$
+						[Rel]
+						[CP, name = CP
+							[C$'$
+								[C]
+								[TP, name = TP
+									[T$'$s
+										[T]
+										[vP, name = vP
+											[vP
+												[I, name = I]
+												[v$'$
+													[v]
+													[VP
+														[saw]
+														[son, name = son]
+													]
+												]
+											]
+										]
+									]
+								]
+							]
+						]
+					]
+				]
+				[FP, name = FP
+					[FP
+						[-uy]
+						[DP, name = DP
+							[D2]
+							[doctor]
+						]
+					]
+				]
+			]
+		]
+	]
+]

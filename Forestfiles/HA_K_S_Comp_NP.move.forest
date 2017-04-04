@@ -1,0 +1,6 @@
+\draw[move={1}] (soccer) .. controls +(200:5em) and +(220:20em) .. (vP);
+\draw[move={2}] (DP2) .. controls +(200:5em) and +(220:20em) .. (FP);
+\draw[move={3}] (FP) .. controls +(200:5em) and +(220:20em) .. (NP);
+\draw[move={4}] (DP) .. controls +(200:5em) and +(220:20em) .. (TP);
+\draw[move={5}] (DP) .. controls +(200:5em) and +(220:20em) .. (CP);
+\draw[move={6}] (TP) .. controls +(200:5em) and +(220:20em) .. (RelP);

@@ -1,0 +1,23 @@
+| Metric   | Filters   | A_DAT_ID   | A_DAT_DI   | UA_DAT_ID   | UA_DAT_DI   | WH_A_DAT_ID   | WH_A_DAT_DI   | WH_UA_DAT_ID   | WH_UA_DAT_DI   | E_S_Comp_NP   | E_O_Comp_NP   | K_S_Comp_NP   | K_O_Comp_NP   |
+|----------+-----------+------------+------------+-------------+-------------+---------------+---------------+----------------+----------------+---------------+---------------+---------------+---------------|
+| AvgS     |           | Yes        | Yes        | No          | No          | Yes           | Yes           | No             | No             | Tie           | Tie           | Yes           | Yes           |
+| AvgS'    |           | No         | Yes        | No          | No          | Yes           | Yes           | No             | No             | Tie           | Tie           | Yes           | Yes           |
+| AvgT     |           | Yes        | Yes        | Yes         | Yes         | Yes           | Yes           | No             | Yes            | Yes           | Yes           | Yes           | Yes           |
+| AvgT'    |           | Yes        | Yes        | Yes         | Yes         | Yes           | Yes           | Yes            | Yes            | Yes           | Yes           | Yes           | Yes           |
+| BoxT     |           | Tie        | Tie        | Tie         | No          | Tie           | Tie           | Tie            | No             | Tie           | Tie           | Tie           | Tie           |
+| BoxT'    |           | Yes        | Tie        | No          | No          | Yes           | Tie           | No             | No             | No            | Tie           | No            | No            |
+| MaxS     |           | Yes        | Yes        | Yes         | No          | Yes           | Yes           | Tie            | Yes            | Tie           | Tie           | Yes           | Yes           |
+| MaxS'    |           | Yes        | Yes        | Yes         | No          | Yes           | Yes           | Tie            | Yes            | Tie           | Tie           | Yes           | Yes           |
+| MaxSR    |           | Yes        | Yes        | Yes         | No          | Yes           | Yes           | No             | Yes            | Tie           | Tie           | Yes           | Yes           |
+| MaxSR'   |           | Yes        | Yes        | Yes         | No          | Yes           | Yes           | No             | Yes            | Tie           | Tie           | Yes           | Yes           |
+| MaxT     |           | Yes        | Yes        | No          | No          | Yes           | Yes           | No             | No             | Yes           | Yes           | No            | No            |
+| MaxT'    |           | Yes        | Yes        | No          | No          | Yes           | Yes           | No             | No             | Yes           | Yes           | No            | No            |
+| MaxTR    |           | Yes        | Yes        | No          | No          | Yes           | Yes           | No             | No             | Yes           | Yes           | No            | No            |
+| MaxTR'   |           | Yes        | Yes        | No          | No          | Yes           | Yes           | No             | No             | Yes           | Yes           | No            | No            |
+| Movers   |           | Tie        | No         | No          | No          | Tie           | Tie           | No             | No             | Tie           | Tie           | Tie           | Tie           |
+| Movers'  |           | Yes        | Tie        | Tie         | No          | Yes           | Tie           | No             | No             | Tie           | Tie           | Yes           | Yes           |
+| SumS     |           | Yes        | Yes        | No          | No          | Yes           | Yes           | No             | No             | Tie           | Tie           | Yes           | Yes           |
+| SumS'    |           | Yes        | Yes        | No          | No          | Yes           | Yes           | No             | No             | Tie           | Tie           | Yes           | Yes           |
+| SumT     |           | Yes        | Yes        | Yes         | Yes         | Yes           | Yes           | No             | Yes            | Yes           | Yes           | Yes           | Yes           |
+| SumT'    |           | Yes        | Yes        | Yes         | Yes         | Yes           | Yes           | No             | No             | Yes           | Yes           | Yes           | Yes           |
+>>> 

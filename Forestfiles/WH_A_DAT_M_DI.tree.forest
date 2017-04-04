@@ -1,15 +1,15 @@
 [CP
-	[C]
+	[C1]
 	[TP, name = TP1
 		[T$'$
-			[T]
+			[T1]
 			[vP, name = vP1
 				[vP, name = vP2
 					[vP, name = vP3
 					[vP
 						[Piglet, name =piglet  ]
 						[v$'$
-							[v]
+							[v1]
 							[VP
 								[DP, name = DP
 									[D$'$
@@ -18,16 +18,16 @@
 											[Honeycomb, name = honey ]
 											[CP, name =CP
 												[C$'$
-													[C]
+													[C2]
 													[TP, name =TP2
 														[T$'$
-															[T]
+															[T2]
 															[vP, name =vP4
 																[vP, name =vP5
 																	[vP
 																		[Pooh, name =pooh ]
 																		[v$'$
-																			[v]
+																			[v2]
 																			[VP
 																				[which, name =which ]
 																				[V$'$

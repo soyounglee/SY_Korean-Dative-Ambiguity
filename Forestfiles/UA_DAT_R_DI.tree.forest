@@ -1,56 +1,56 @@
 [CP
-        [C]
-           [TP, name = TP1
-                	[T$'$
-                   		 [T]
-                   		 [vP, name = vP1
+    [C1]
+    [TP, name = TP1
+        [T$'$
+            [T1]
+            [vP, name = vP1
 				[vP
-                       			 [Mom, name = mom  ]
-                      			 [v$'$
-                         					 [v]
-                          					 [VP
-                                    						[Like]
-                                    						[DP, name = DP
-			       							[D]
-                                        							[RelP, name = RelP
-											[Rel$'$
-                                            								[Rel]
-                                            								[CP, name = CP
-				    									[C$'$
-                                                										[C]
-                                                										[TP, name = TP2
-															[TP, name = TP3
-					       											[T$'$
-	                                                    												[T]
-	                                                    												[vp, name = vP2
-																		[vp, name = vP3
-																			[vp
-	                                                       														 [Uncle, name = uncle ]
-	                                                       														 [v$'$
-						     															[v]
-						     															[VP
-																						[Bike, name = bike ]
-																						[V$'$
-																							[Buy]
-																							[Daughter, name = daughter ]
-																						 ]
-						     															]
-						  														 ]
-																			]
+                    [Mom, name = mom  ]
+                    [v$'$
+                        [v1]
+                        [VP
+                            [Like]
+                            [DP, name = DP
+			       				[D]
+                                [RelP, name = RelP
+									[Rel$'$
+                                        [Rel]
+                                        [CP, name = CP
+				    						[C$'$
+                                                [C2]
+                                                [TP, name = TP2
+													[TP, name = TP3
+					       								[T$'$
+	                                                    	[T2]
+	                                                    	[vp, name = vP2
+																[vp, name = vP3
+																	[vp
+	                                                       				[Uncle, name = uncle ]
+	                                                       				[v$'$
+						     												[v2]
+						     													[VP
+																				[Bike, name = bike ]
+																					[V$'$
+																						[Buy]
+																						[Daughter, name = daughter ]
+																					]
+						     													]
+						  													]
 																		]
-	                                                   												 ]
-	                                                											]
-															]
-				   										]
-				 									 ]                                       
-												]
-			      								 ]
-                                   							 ]
-                               						 ]
-                        					]
+																	]
+	                                                 			]
+	                                                		]
+														]
+				   									]
+				 								]                                       
+											]
+			      						]
+                                   	]
+                               	]
+                        	]
 						]	
-				]
-                   		 ]
-               	 ]
-        ]												
+					]
+            ]
+        ]
+    ]												
 ]
